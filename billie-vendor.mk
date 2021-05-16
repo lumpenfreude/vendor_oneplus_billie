@@ -94,12 +94,3 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/billie/proprietary/product/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.0.so \
     vendor/oneplus/billie/proprietary/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.0.so \
     vendor/oneplus/billie/proprietary/bin/dashd:$(TARGET_COPY_OUT_SYSTEM)/bin/dashd
-
-PRODUCT_PACKAGES += \
-    libantradio \
-    WfdService \
-    QtiTelephonyService \
-    ims \
-    qcrilmsgtunnel \
-    WfdCommon \
-    qcnvitems
